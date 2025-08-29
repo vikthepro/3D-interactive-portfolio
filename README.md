@@ -1,4 +1,6 @@
-![Portfolio Preview]<img width="1919" height="963" alt="image" src="https://github.com/user-attachments/assets/3b811cd6-77ab-43c8-a3be-fbf71edb1d77" />
+![Portfolio Preview]
+
+<img width="1919" height="963" alt="image" src="https://github.com/user-attachments/assets/3b811cd6-77ab-43c8-a3be-fbf71edb1d77" />
 
 
 # 🚀 My Portfolio Website
