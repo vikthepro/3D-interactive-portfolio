@@ -1,16 +1,16 @@
 const config = {
-  title: "Abhijit Zende | AI Enthusiast",
+  title: "Vikas Chepuri | AI Enthusiast",
   description: {
-    long: "Explore the portfolio of Abhijit, a Computer Science Engineer with 1.5 year experience in Devlopment, DevOps & Database management with hands-on experience in deploying & automating workflows, & collaborating with foreign clients. Strong analytical skills, effective communication, and a team-oriented approach to driving process improvements and delivering results.",
+    long: "Explore the portfolio of Vikas Chepuri, a Computer Science Engineer with 1.5 year experience in Devlopment, DevOps & Database management with hands-on experience in deploying & automating workflows, & collaborating with foreign clients. Strong analytical skills, effective communication, and a team-oriented approach to driving process improvements and delivering results.",
     short:
-      "Discover the portfolio of Abhijit, a AI enthusiast solving real life problems in DevOps and Development.",
+      "Discover the portfolio of Vikas Chepuri, a AI enthusiast solving real life problems in DevOps and Development.",
   },
   keywords: [
-    "Abhijit",
-    "Abhijit Zende",
-    "abhijitzende",
-    "abhijitzende.com",
-    "Abhijit Zende portfolio",
+    "Vikas Chepuri",
+    "Vikas Chepuri",
+    "vikaschepuri",
+    "vikaschepuri.com",
+    "Vikas Chepuri portfolio",
     "portfolio",
     "DevOps",
     "Devlopment",
@@ -30,19 +30,19 @@ const config = {
     "AIOps",
     "Azure",
   ],
-  author: "Abhijit Zende",
-  email: "abhijitzende75@gmail.com",
-  site: "https://abhijitzende.com",
+  author: "Vikas Chepuri",
+  email: "chepurivikas7@gmail.com",
+  site: "https://vikaschepuri.com",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "https://x.com/_Abhi_Speaks/",
-    linkedin: "https://www.linkedin.com/in/zende-abhijit/",
-    instagram: "https://www.instagram.com/_.celestial_abhi._/",
-    facebook: "https://www.facebook.com/profile.php?id=100010029821759",
-    github: "https://github.com/Abhiz2411/",
+    twitter: "https://x.com/id2003Vikas",
+    linkedin: "https://www.linkedin.com/in/chepuri-vikas-b7b54224a/",
+    instagram: "https://www.instagram.com/kcpd._/",
+    facebook: "https://www.facebook.com/share/16JRo1wjEr/",
+    github: "https://github.com/vikthepro",
   },
 };
 export { config };
