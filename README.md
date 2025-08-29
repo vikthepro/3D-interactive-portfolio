@@ -1,4 +1,5 @@
-![Portfolio Preview](https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/public/assets/seo/og-image.png?raw=true)
+![Portfolio Preview]<img width="1919" height="963" alt="image" src="https://github.com/user-attachments/assets/3b811cd6-77ab-43c8-a3be-fbf71edb1d77" />
+
 
 # 🚀 My Portfolio Website
 
@@ -6,9 +7,9 @@ Welcome to the repository for my personal portfolio website! 🎉 This project i
 
 ### Live preview: https://www.abhijitzende.com/
 
-![Preview](https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/public/assets/preview_video.gif?raw=true)
+![Preview]()![ScreenRecording2025-08-29172935-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/a6a689a3-d0fa-4353-b023-d93545b61c8e)
 
-https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/preview_video.mp4
+
 
 
 
@@ -49,7 +50,7 @@ The portfolio website is built using the following tools and technologies:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Abhiz2411/3D-interactive-portfolio.git
+   https://github.com/vikthepro/3D-interactive-portfolio.git
    ```
 
 2. Navigate to the project directory:
@@ -83,7 +84,7 @@ The portfolio website is built using the following tools and technologies:
 
 ## 🚀 Deployment
 
-This project is deployed using **Vercel** for its blazing-fast performance and ease of use. You can view the live site [here](https://www.abhijitzende.com/).
+This project is deployed using **Vercel** for its blazing-fast performance and ease of use. You can view the live site [here].
 
 ### Setting up Resend API on Vercel
 
