@@ -5,7 +5,7 @@
 
 Welcome to the repository for my personal portfolio website! 🎉 This project is a culmination of creativity, technology, and my dedication to showcasing my skills, projects, and personality in a visually stunning and interactive manner.
 
-### Live preview: https://www.abhijitzende.com/
+### Live preview:
 
 ![Preview]()![ScreenRecording2025-08-29172935-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/a6a689a3-d0fa-4353-b023-d93545b61c8e)
 
