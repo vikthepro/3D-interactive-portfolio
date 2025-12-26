@@ -50,10 +50,6 @@ const PROJECTS = [
             dopest way possible.`,
     link: "https://3-d-interactive-portfolio-ije5-mz0ceat32-viks-projects-607b5d86.vercel.app/",
     images: [
-      "/assets/projects-screenshots/myportfolio/landing.png",
-      "/assets/projects-screenshots/myportfolio/navbar.png",
-      "/assets/projects-screenshots/myportfolio/projects.png",
-      "/assets/projects-screenshots/myportfolio/project.png",
     ],
   },
   {
