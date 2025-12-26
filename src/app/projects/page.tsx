@@ -18,9 +18,6 @@ const PROJECTS = [
             Deployed on Vercel, it ensures fast and easy access to Dockerfile optimization..`,
     link: "https://ai-docker-file-optimizer.netlify.app/",
     images: [
-      "/assets/projects-screenshots/aidockerfileoptimizer/1.png",
-      "/assets/projects-screenshots/aidockerfileoptimizer/2.png",
-      "/assets/projects-screenshots/aidockerfileoptimizer/3.png",
     ],
   },
   {
@@ -32,7 +29,7 @@ const PROJECTS = [
             scaling challenges. The project involves automating infrastructure provisioning, build 
             and deployment processes, and continuous monitoring using modern DevOps tools and 
             AWS services.?`,
-    link: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
+    link: "https://3-d-interactive-portfolio-ije5-mz0ceat32-viks-projects-607b5d86.vercel.app/",
     images: [
       "/assets/projects-screenshots/financeme/1.png",
       "/assets/projects-screenshots/financeme/2.png",
@@ -51,7 +48,7 @@ const PROJECTS = [
     name: "Portfolio",
     description: `Welcome to my digital playground, where creativity meets code in the
             dopest way possible.`,
-    link: "https://www.abhijitzende.com/",
+    link: "https://3-d-interactive-portfolio-ije5-mz0ceat32-viks-projects-607b5d86.vercel.app/",
     images: [
       "/assets/projects-screenshots/myportfolio/landing.png",
       "/assets/projects-screenshots/myportfolio/navbar.png",
@@ -69,10 +66,7 @@ const PROJECTS = [
             integration. Say goodbye to parking woes and hello to smarter space utilization!`,
     link: "https://github.com/Abhiz2411/smart-parking-assistant",
     images: [
-      "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
       "/assets/projects-screenshots/smartparkingassitant/03.jpeg",
-      "/assets/projects-screenshots/smartparkingassitant/04.jpeg",
-
     ],
   },
 ];
