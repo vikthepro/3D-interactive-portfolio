@@ -1,122 +1,123 @@
 "use client";
+
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 // @ts-ignore
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
-
 import "@splidejs/react-splide/css";
 
 const PROJECTS = [
   {
     id: 1,
-    name: "AI Dockerfile optimizer",
-    description: `AI-Docker-file-optimizer helps optimize Dockerfiles for smaller, more efficient images. 
-            Simply paste your Dockerfile, and the app analyzes it for best practices and size 
-            optimization tips. It then provides a refactored, optimized version of the Dockerfile. 
-            Deployed on Vercel, it ensures fast and easy access to Dockerfile optimization..`,
-    link: "https://ai-docker-file-optimizer.netlify.app/",
+    name: "My Portfolio",
+    description:
+      "A modern 3D interactive portfolio showcasing my projects, skills, and creative work with smooth animations.",
+    link: "https://3-d-interactive-portfolio-ije5-mz0ceat32-viks-projects-607b5d86.vercel.app/",
     images: [
+      "/assets/projects-screenshots/myportfolio/landing.png",
+      "/assets/projects-screenshots/myportfolio/projects.png",
+      "/assets/projects-screenshots/myportfolio/project.png",
     ],
   },
   {
     id: 2,
-    name: "financeme",
-    description: `This project demonstrates the deployment of a DevOps pipeline for a global banking and
-            financial services provider, FinanceMe. The company transitioned from a monolithic 
-            architecture to a microservice-based architecture to handle increased traffic and 
-            scaling challenges. The project involves automating infrastructure provisioning, build 
-            and deployment processes, and continuous monitoring using modern DevOps tools and 
-            AWS services.?`,
-    link: "https://3-d-interactive-portfolio-ije5-mz0ceat32-viks-projects-607b5d86.vercel.app/",
+    name: "Smart Job Tracker",
+    description:
+      "A full-stack job tracking application with Kanban board, status updates, and progress tracking.",
+    link: "https://job-tracker-application-eight.vercel.app/",
     images: [
-      "/assets/projects-screenshots/financeme/1.png",
-      "/assets/projects-screenshots/financeme/2.png",
-      "/assets/projects-screenshots/financeme/3.png",
-      "/assets/projects-screenshots/financeme/4.png",
-      "/assets/projects-screenshots/financeme/5.png",
-      "/assets/projects-screenshots/financeme/6.png",
-      "/assets/projects-screenshots/financeme/7.png",
-      "/assets/projects-screenshots/financeme/8.png",
-      "/assets/projects-screenshots/financeme/9.png",
-      "/assets/projects-screenshots/financeme/10.png"
+      "/assets/projects-screenshots/smartjobtracker/01.png",
+      "/assets/projects-screenshots/smartjobtracker/02.png",
+      "/assets/projects-screenshots/smartjobtracker/03.png",
     ],
   },
   {
     id: 3,
-    name: "Portfolio",
-    description: `Welcome to my digital playground, where creativity meets code in the
-            dopest way possible.`,
-    link: "https://3-d-interactive-portfolio-ije5-mz0ceat32-viks-projects-607b5d86.vercel.app/",
+    name: "Movie Blog Website",
+    description:
+      "A movie blog platform where users can explore latest movies, trending posts, and categorized content.",
+    link: "https://moviechudura.blogspot.com/",
     images: [
+      "/assets/projects-screenshots/movieblog/01.png",
+      "/assets/projects-screenshots/movieblog/02.png",
+      "/assets/projects-screenshots/movieblog/03.png",
     ],
   },
   {
     id: 4,
-    name: "Smart Parking Assistant",
-    description: `Transform parking with the Smart Parking Assistant, an IoT marvel powered by Arduino 
-            and IR sensors to detect and recommend the best spots in real-time. Enjoy a sleek GUI 
-            that visualizes availability and an intelligent system for quick, optimal decisions. 
-            Built to adapt with customizable hardware and Python-powered software for seamless 
-            integration. Say goodbye to parking woes and hello to smarter space utilization!`,
-    link: "https://github.com/Abhiz2411/smart-parking-assistant",
+    name: "Figma to Code Design",
+    description:
+      "A modern UI/UX design project created in Figma demonstrating real-world design-to-code workflow.",
+    link: "https://www.figma.com/",
     images: [
-      "/assets/projects-screenshots/smartparkingassitant/03.jpeg",
+      "/assets/projects-screenshots/figma/01.png",
+      "/assets/projects-screenshots/figma/02.png",
     ],
   },
 ];
+
 function Page() {
   return (
-    <>
-      <div className="container mx-auto md:px-[50px] xl:px-[150px] text-zinc-300 h-full">
-        <h1 className="text-4xl mt-[100px] mb-[50px]">Projects</h1>
-        <ul className="grid  md:grid-cols-2 lg:grid-cols-3 gap-10 place-content-around ">
-          {PROJECTS.map((project) => (
-            <li
-              className="w-[300px] h-[400px] border-[.5px] rounded-md border-zinc-600"
-              key={project.id}
-              style={{ backdropFilter: "blur(2px)" }}
-            >
-              <div className="h-[200px]">
-                <Splide
-                  options={{
-                    type: "loop",
-                    interval: 3000,
-                    autoplay: true,
-                    speed: 2000,
-                    perMove: 1,
-                    rewind: true,
-                    easing: "cubic-bezier(0.25, 1, 0.5, 1)",
-                    arrows: false,
-                  }}
-                  aria-label="My Favorite Images"
-                >
-                  {project.images.map((image) => (
-                    <SplideSlide key={image}>
-                      <Image
-                        src={image}
-                        alt={`screenshot of "${project.name}`}
-                        className="w-[300px] h-[200px] rounded-md bg-zinc-900 "
-                        width={300}
-                        height={400}
-                        style={{ height: "200px" }}
-                      />
-                    </SplideSlide>
-                  ))}
-                </Splide>
-              </div>
-              <div className="p-4 text-zinc-300">
-                <h2 className="text-xl">{project.name}</h2>
-                <p className="mt-2 text-xs text-zinc-500">
-                  {project.description}
-                </p>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </>
+    <div className="container mx-auto md:px-[50px] xl:px-[150px] text-zinc-300 h-full">
+      <h1 className="text-4xl mt-[100px] mb-[50px]">Projects</h1>
+
+      <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 place-content-around">
+        {PROJECTS.map((project) => (
+          <li
+            key={project.id}
+            className="w-[300px] h-[400px] border-[.5px] rounded-md border-zinc-600 hover:scale-105 transition-all duration-300"
+            style={{ backdropFilter: "blur(2px)" }}
+          >
+            {/* Image Slider */}
+            <div className="h-[200px]">
+              <Splide
+                options={{
+                  type: "loop",
+                  interval: 3000,
+                  autoplay: true,
+                  speed: 1500,
+                  perMove: 1,
+                  rewind: true,
+                  arrows: false,
+                }}
+              >
+                {project.images.map((image, index) => (
+                  <SplideSlide key={index}>
+                    <Image
+                      src={image}
+                      alt={project.name}
+                      className="w-[300px] h-[200px] rounded-md bg-zinc-900 object-cover"
+                      width={300}
+                      height={200}
+                    />
+                  </SplideSlide>
+                ))}
+              </Splide>
+            </div>
+
+            {/* Content */}
+            <div className="p-4">
+              <h2 className="text-xl font-semibold">{project.name}</h2>
+
+              <p className="mt-2 text-xs text-zinc-400 line-clamp-4">
+                {project.description}
+              </p>
+
+              {/* Button */}
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-3 text-sm text-blue-400 hover:underline"
+              >
+                View Project →
+              </a>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 

@@ -776,7 +776,7 @@ const projects: Project[] = [
     src: "/assets/projects-screenshots/aidockerfileoptimizer/2.png",
     screenshots: ["1.png", "2.png", "3.png"],
     live: "https://ai-docker-file-optimizer.netlify.app/",
-    github:"https://github.com/Abhiz2411/AI-Docker-file-optimizer",
+    github:"https://github.com/vikthepro",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
       backend: [PROJECT_SKILLS.openai,PROJECT_SKILLS.netlify],
@@ -802,108 +802,84 @@ const projects: Project[] = [
       );
     },
   },
-  { // 02. FinanceMe project
-    id: "financeme",
-    category: "DevOps in Banking and Finance",
-    title: "FinanceMe: Complete DevOps Capstone Project",
-    src: "/assets/projects-screenshots/financeme/1.png",
-    screenshots: ["/assets/projects-screenshots/financeme/1.png"],
-    skills: {
-      frontend: [
-        PROJECT_SKILLS.html,
-        PROJECT_SKILLS.css,
-        PROJECT_SKILLS.js,
-        PROJECT_SKILLS.bootstrap,
-      ],
-      backend: [
-        PROJECT_SKILLS.java,
-        PROJECT_SKILLS.maven,
-        PROJECT_SKILLS.postgres,
-      ],
-    },
-    live: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
-    github: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono text-2xl text-center">
-            FinanceMe: Complete DevOps Capstone Project
-          </TypographyP>
-          <TypographyP className="font-mono ">
-            This project demonstrates the deployment of a DevOps pipeline for a global banking and
-            financial services provider, FinanceMe. The company transitioned from a monolithic 
-            architecture to a microservice-based architecture to handle increased traffic and 
-            scaling challenges. The project involves automating infrastructure provisioning, build 
-            and deployment processes, and continuous monitoring using modern DevOps tools and 
-            AWS services.?
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <TypographyH3 className="my-4 mt-8">Architecture </TypographyH3>
-          <p className="font-mono mb-2">
-            The project is divided into three main phases:
-            1.Automating Infrastructure Provisioning
-            2.Build and Deployment Automation
-            3.Continuous Monitoring
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/financeme/1.png`,
-              `${BASE_PATH}/financeme/2.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Automating Infrastructure Provisioning</TypographyH3>
-          <p className="font-mono mb-2">
-          Terraform is used to create 4 AWS EC2 instances:
-            Jenkins Master Node (for CI/CD pipeline management)
-            Build Server (for application and Docker image builds)
-            Production Server (for deploying Dockerized applications)
-            Monitoring Server (for continuous monitoring of Build and Prod servers)
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/financeme/4_A.png`,
-              `${BASE_PATH}/financeme/4.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Build and Deployment Automation</TypographyH3>
-
-          <p className="font-mono mb-2">
-          Jenkins is configured for a CI/CD pipeline:
-            Jenkins Master Node is responsible for pipeline orchestration.
-            Build Server is configured as a Jenkins Slave Node to handle application builds and Docker image creation.
-            Ansible is used for automating deployment to the Prod server, where the application is deployed using an Ansible client-server model.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/financeme/5.png`,
-              `${BASE_PATH}/financeme/6.png`,
-              `${BASE_PATH}/financeme/7.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Continuous Monitoring </TypographyH3>
-          <p className="font-mono mb-2">
-          Prometheus and Grafana are used for real-time monitoring:
-            Node Exporter is installed on both Build and Prod servers to collect server metrics (CPU, Disk Space, Memory Utilization).
-            Grafana Dashboard is created to visualize these metrics for continuous monitoring.
-          </p>
-          <SlideShow images={[
-                `${BASE_PATH}/financeme/3.png`,
-                `${BASE_PATH}/financeme/8.png`,
-                `${BASE_PATH}/financeme/9.png`,
-                `${BASE_PATH}/financeme/10.png`,
-            ]} />
-        </div>
-      );
-    },
+{ // 02. Frontend Mini Projects Collection
+  id: "frontendminiprojects",
+  category: "Frontend Development",
+  title: "Frontend Mini Projects Collection",
+  src: "/assets/projects-screenshots/frontendminiprojects/1.png",
+  screenshots: ["1.png","2.png"],
+  skills: {
+    frontend: [
+      PROJECT_SKILLS.html,
+      PROJECT_SKILLS.css,
+      PROJECT_SKILLS.js,
+      PROJECT_SKILLS.bootstrap,
+    ],
+    backend: [],
   },
+  live: "https://github.com/vikthepro/frontend-mini-projects-collection",
+  github: "https://github.com/vikthepro",
+  get content() {
+    return (
+      <div>
+        <TypographyP className="font-mono text-2xl text-center">
+          Frontend Mini Projects Collection
+        </TypographyP>
+
+        <TypographyP className="font-mono">
+          This repository contains a collection of frontend mini projects built
+          using HTML, CSS, JavaScript and Bootstrap. The goal of this project is
+          to practice and demonstrate core frontend development skills through
+          multiple small applications and UI components.
+        </TypographyP>
+
+        <ProjectsLinks live={this.live} repo={this.github} />
+
+        <TypographyH3 className="my-4 mt-8">Project Collection</TypographyH3>
+
+        <p className="font-mono mb-2">
+          The repository includes several mini projects designed to improve
+          frontend development skills such as UI design, DOM manipulation,
+          responsive layouts, and JavaScript logic building.
+        </p>
+
+        <SlideShow
+          images={[
+            `${BASE_PATH}/frontendminiprojects/1.png`,
+            `${BASE_PATH}/frontendminiprojects/2.png`,
+            `${BASE_PATH}/frontendminiprojects/3.png`,
+            `${BASE_PATH}/frontendminiprojects/4.png`,
+          ]}
+        />
+
+        <TypographyH3 className="my-4 mt-8">Technologies Used</TypographyH3>
+
+        <p className="font-mono mb-2">
+          The projects focus on core frontend technologies including HTML for
+          structure, CSS for styling, Bootstrap for responsive layouts, and
+          JavaScript for interactive behavior.
+        </p>
+
+        <TypographyH3 className="my-4 mt-8">Purpose</TypographyH3>
+
+        <p className="font-mono mb-2">
+          This project collection helps developers practice frontend concepts
+          by building small practical applications. It also serves as a useful
+          reference for beginners learning how different frontend components
+          work together in real-world projects.
+        </p>
+      </div>
+    );
+  },
+},
   { // 03. Portfolio project
     id: "portfolio",
     category: "Portfolio",
     title: "My Portfolio",
     src: "/assets/projects-screenshots/myportfolio/landing.png",
     screenshots: ["assets/projects-screenshots/myportfolio/landing.png"],
-    live: "https://www.abhijitzende.com/",
-    github:"https://github.com/Abhiz2411/3D-interactive-portfolio",
+    live: "https://github.com/vikthepro",
+    github:"https://github.com/vikthepro",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
@@ -962,40 +938,51 @@ const projects: Project[] = [
       );
     },
   },
-  { // 04. Smart parking assitant
-    id: "smartparkingassitant",
-    category: "IoT",
-    title: "Smart Parking Assistant",
-    src: "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
-    screenshots: ["01.jpeg", "03.png"],
-    live: "https://github.com/Abhiz2411/smart-parking-assistant",
-    github:"https://github.com/Abhiz2411/smart-parking-assistant",
-    skills: {
-      frontend: [PROJECT_SKILLS.python],
-      backend: [PROJECT_SKILLS.cplusplus, PROJECT_SKILLS.arduino],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            Transform parking with the Smart Parking Assistant, an IoT marvel powered by Arduino 
-            and IR sensors to detect and recommend the best spots in real-time. Enjoy a sleek GUI 
-            that visualizes availability and an intelligent system for quick, optimal decisions. 
-            Built to adapt with customizable hardware and Python-powered software for seamless 
-            integration. Say goodbye to parking woes and hello to smarter space utilization!
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow
-            images={[
-              `${BASE_PATH}/smartparkingassitant/01.jpeg`,
-              `${BASE_PATH}/smartparkingassitant/03.png`,
-              `${BASE_PATH}/smartparkingassitant/04.jpg`,
-            ]}
-          />
-        </div>
-      );
-    },
+  { // 04. Figma Design Project
+  id: "figmatocode",
+  category: "UI/UX Design",
+  title: "Figma to Code Plugin Playground",
+  src: "/assets/projects-screenshots/figma/01.png",
+  screenshots: ["01.png", "02.png", "03.png"],
+  live: "https://www.figma.com/community/file/1500089184472459029",
+  github: "https://github.com/vikthepro",
+  skills: {
+    frontend: [
+      PROJECT_SKILLS.framerMotion,
+      PROJECT_SKILLS.tailwind,
+    ],
+    backend: [],
   },
+  get content() {
+    return (
+      <div>
+        <TypographyP className="font-mono ">
+          This project showcases a modern UI/UX design created in Figma, focused on 
+          converting design components into clean, responsive code. It demonstrates 
+          how structured design systems and reusable components can streamline the 
+          development process.
+        </TypographyP>
+
+        <ProjectsLinks live={this.live} />
+
+        <TypographyP className="font-mono mb-2">
+          The design includes interactive layouts, modern gradients, component-based 
+          structure, and responsive UI elements. It highlights real-world workflows 
+          where designers and developers collaborate efficiently using Figma-to-code 
+          approaches.
+        </TypographyP>
+
+        <SlideShow
+          images={[
+            `${BASE_PATH}/figma/01.png`,
+            `${BASE_PATH}/figma/02.png`,
+            `${BASE_PATH}/figma/03.png`,
+          ]}
+        />
+      </div>
+    );
+  },
+},
   { // 05. Smart Job Tracker project
     id: "smartjobtracker",
     category: "Full stack",
@@ -1003,7 +990,7 @@ const projects: Project[] = [
     src: "/assets/projects-screenshots/smartjobtracker/02.png",
     screenshots: ["01.png", "02.png", "03.png","04.png","05.png","06.png","07.png"],
     live: "https://job-tracker-application-eight.vercel.app/",
-    github:"https://github.com/Abhiz2411/Job-tracker-application",
+    github:"https://github.com/vikthepro",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
       backend: [PROJECT_SKILLS.firebase],
@@ -1034,41 +1021,52 @@ const projects: Project[] = [
       );
     },
   },
-  { // 06. Savinder Puri portfolio project
-    id: "savinderpurisportfolio",
-    category: "Web Development",
-    title: "Savinder Puri Portfolio",
-    src: "/assets/projects-screenshots/savinderpuriportfolio/01.png",
-    screenshots: ["01.png", "02.png", "03.png","04.png","05.png"],
-    live: "https://savinder-puri.vercel.app/",
-    github:"https://github.com/Abhiz2411/savinder-puri",
-    skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            Step into the digital world of Savinder Puri, the beloved DevOps guru and Spiritual 
-            Alchemist, with this responsive portfolio website. 🌐✨ Explore his inspiring journey, 
-            milestones, and life-changing services blending tech and spirituality. Built with 
-            modern tools like React and TypeScript, it’s a heartfelt tribute to a mentor who 
-            transforms lives. 💻🕊️ Crafted with ❤️ by Vikas Chepuri! 🚀
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow
-            images={[
-              `${BASE_PATH}/savinderpuriportfolio/01.png`,
-              `${BASE_PATH}/savinderpuriportfolio/02.png`,
-              `${BASE_PATH}/savinderpuriportfolio/03.png`,
-              `${BASE_PATH}/savinderpuriportfolio/04.png`,
-              `${BASE_PATH}/savinderpuriportfolio/05.png`,
-            ]}
-          />
-        </div>
-      );
-    },
+{ // 06. Movie Blog Website project
+  id: "movieblogwebsite",
+  category: "Web Development",
+  title: "Movie Download Blog Website",
+  src: "/assets/projects-screenshots/movieblog/01.png",
+  screenshots: ["01.png", "02.png", "03.png","04.png"],
+  live: "https://moviechudura.blogspot.com/",
+  github: "https://github.com/vikthepro",
+  skills: {
+    frontend: [
+      PROJECT_SKILLS.html,
+      PROJECT_SKILLS.css,
+      PROJECT_SKILLS.js,
+      PROJECT_SKILLS.bootstrap,
+    ],
+    backend: [],
   },
+  get content() {
+    return (
+      <div>
+        <TypographyP className="font-mono ">
+          This is a movie blog website built using Blogger platform, where users can explore 
+          and access the latest movies, web series, and popular content in different qualities 
+          like 720p and 1080p. The site is designed with a clean UI showing recent posts, 
+          popular posts, and categorized movie listings.
+        </TypographyP>
+
+        <ProjectsLinks live={this.live} />
+
+        <TypographyP className="font-mono mb-2">
+          The website includes features like thumbnail previews, categorized movie sections, 
+          Telegram integration for updates, and an easy navigation system for users to browse 
+          and discover content quickly.
+        </TypographyP>
+
+        <SlideShow
+          images={[
+            `${BASE_PATH}/movieblog/01.png`,
+            `${BASE_PATH}/movieblog/02.png`,
+            `${BASE_PATH}/movieblog/03.png`,
+            `${BASE_PATH}/movieblog/04.png`,
+          ]}
+        />
+      </div>
+    );
+  },
+},
 ];
 export default projects;

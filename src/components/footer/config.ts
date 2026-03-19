@@ -1,7 +1,7 @@
 const footer: { title: string; href: string }[] = [
   {
     title: "Blog",
-    href: "https://bento.me/vikk",
+    href: "https://about-me-cy0n3cn.gamma.site/",
   },
   {
     title: "Newsletter",
